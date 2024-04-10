@@ -1,14 +1,16 @@
 import { Route, Routes } from 'react-router-dom';
 
-// import ErrorPage from 'pages/ErrorPage/ErrorPage';
-// import { AppWrapper } from './App.styled';
+import HomePageNoReg from './pages/HomePageNoRegister/HomePage';
 
 function App() {
   return (
     <Routes>
-      <Route path="/" element={'Hola Amigos'}>
-        {/* <Route path="/first" element={<FirstPage />} /> */}
-        {/* <Route path="*" element={<ErrorPage />} /> */}
+      <Route path="/" element={<HomePageNoReg />}>
+        {/* <Route path="/crypto" element={<HomePage />} />
+        <Route path="/registration" element={<Registration />} />
+        <Route path="/login" element={<Login />} />
+
+        <Route path="*" element={<Navigate to="/crypto" />} /> */}
       </Route>
     </Routes>
   );

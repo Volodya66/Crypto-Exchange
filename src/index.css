@@ -1,13 +1,10 @@
 body {
-  /* background-color: #000; */
-  /* background-image: url('./assets/background.png'); */
-  background-size: auto 100%;
-  background-position: center center;
-  background-repeat: no-repeat;
-  /* font-family: 'Roboto', sans-serif; */
+  background-color: #fff;
+
+  font-family: 'Manrope', sans-serif;
   font-weight: 400;
   font-style: normal;
-  /* color: #111111; */
+
   width: 100%;
   height: 100vh;
   margin: 0;
@@ -19,7 +16,7 @@ h4,
 h5,
 h6,
 p {
-  margin-top: 0;
+  margin: 0;
 }
 a {
   text-decoration: none;
@@ -33,5 +30,86 @@ img {
   display: block;
 }
 button {
+  border: none;
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
   cursor: pointer;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+/* .logo {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.37;
+ 
+
+  color: black;
+  text-decoration: none;
+  font-family: 'Manrope', sans-serif;
+} */
+
+.button-rotate {
+  transform: rotate(180deg);
+}
+.buttonSwitchRotate {
+  transform: translateX(37px);
+}
+
+.spanSvg {
+  display: flex;
+  align-items: center;
+  position: relative;
+  transition:
+    transform 0.3s ease,
+    opacity 0.3s ease;
+}
+
+.sun {
+  opacity: 1;
+  z-index: 1;
+}
+
+.moon {
+  position: absolute;
+  opacity: 0;
+}
+
+.sun-icon {
+  opacity: 0;
+  transition: opacity 0.3s ease transform 0.3s ease;
+}
+.moon-icon {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.swiper-slide,
+.swiper-slide swiper-slide-active {
+  width: calc(100% / 2);
+}
+
+@media screen and (min-width: 1920px) {
+  .swiper-slide,
+  .mySwiper {
+    display: none;
+  }
 }

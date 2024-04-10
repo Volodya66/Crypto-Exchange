@@ -22,5 +22,5 @@ export default defineConfig({
       images: '/src/images',
     },
   },
-  base: '/Crypto-Exchange/',
+  base: '/Crypto-Exchange',
 });

@@ -1,0 +1,119 @@
+.buttonMobileMenu {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.37;
+  margin-left: auto;
+  font-family: 'Manrope', sans-serif;
+  color: #000;
+}
+
+/* 
+.btnHero1{
+    width: 205px;
+    background-color: #9C32F0;
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+} */
+
+/* .btnHero2 {
+    width: 205px;
+    background-color:rgba(156, 50, 240, 0.1);
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    color: rgba(156, 50, 240, 1);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(2px);
+    border: 1px solid rgba(156, 50, 240, 1) ;
+
+} */
+
+.btnAddDataUser {
+  display: block;
+  width: 205px;
+  height: 40px;
+  text-align: center;
+  border: 1px solid transparent;
+  border-radius: 25px;
+  color: white;
+  background-color: #9c32f0;
+  margin-left: auto;
+  /* outline: none; */
+}
+
+/* .btnSectionInformation{
+display: block;
+width: 205px;
+height: 40px;
+text-align: center;
+border: 1px solid transparent;
+border-radius: 25px;
+color: white;
+background-color: #9C32F0;
+margin-left: auto;
+font-size: 14px;
+} */
+
+.btnModal {
+  font-size: 20px;
+  color: #000;
+}
+
+.btnRegisterUSer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 320px;
+  height: 42px;
+  border-radius: 50px;
+  background: #9c32f0;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1919.9px) {
+  .btnAddDataUser {
+    position: absolute;
+    bottom: 0;
+    right: 32px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .btnAddDataUser {
+    border-radius: 50px;
+    text-align: center;
+    width: 500px;
+    height: 93px;
+    font-size: 32px;
+    position: absolute;
+    bottom: 0;
+    right: 1260px;
+    right: 80px;
+  }
+
+  .btnAddDataUser {
+    background-color: #8b81ff;
+  }
+}

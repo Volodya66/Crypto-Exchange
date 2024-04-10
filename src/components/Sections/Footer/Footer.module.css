@@ -1,0 +1,191 @@
+.listIconDesk {
+  display: none;
+}
+
+.sectionFooter {
+  margin-top: 80px;
+  margin-bottom: 85px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+}
+
+.wrapperContent {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.textSection {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.titleText {
+  font-size: 28px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.textOnline {
+  font-size: 16px;
+  text-align: center;
+}
+
+.link {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+
+.containerSocial {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  align-items: center;
+}
+
+.listContact {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  cursor: pointer;
+}
+
+.listIcon {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.listFooter {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: space-between;
+}
+
+.listFooterItem {
+  font-size: 14px;
+}
+
+.listFooterItem:nth-child(3) {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+}
+
+@media screen and (max-width: 767.9px) {
+  .container {
+    min-width: 280px;
+    max-width: 360px;
+
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+  }
+
+  .sectionFooter {
+    min-width: 280px;
+    max-width: 360px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1919.9px) {
+  .listFooter {
+    gap: 25px;
+    justify-content: center;
+  }
+
+  .listFooterItem:nth-child(3) {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .sectionFooter {
+    width: 768px;
+    padding: 0 20px;
+  }
+  .textSection {
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .sectionFooter {
+    width: 1920px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 0 80px;
+  }
+
+  .titleText {
+    font-size: 60px;
+    font-weight: 400;
+  }
+  .textOnline {
+    font-size: 24px;
+  }
+  .textSection {
+    height: 100px;
+    gap: 40px;
+    align-items: start;
+  }
+  .containerSocial {
+    flex-direction: column;
+    align-items: start;
+    gap: 25px;
+    margin: 0;
+  }
+  .link {
+    font-weight: 500;
+    font-size: 24px;
+  }
+  .listIcon {
+    display: none;
+  }
+  .listIconDesk {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 25px;
+  }
+  .wrapperContentMax {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .listFooter {
+    gap: 25px;
+    justify-content: center;
+  }
+
+  .listFooterItem {
+    font-size: 24px;
+  }
+  .listFooterItem:nth-child(3) {
+    text-align: start;
+    order: 1;
+    margin: 0;
+  }
+  .listFooterItem:nth-child(1) {
+    text-align: start;
+    order: 2;
+  }
+  .listFooterItem:nth-child(2) {
+    text-align: start;
+    order: 3;
+  }
+}
