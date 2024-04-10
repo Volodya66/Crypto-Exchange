@@ -6,7 +6,7 @@ import { Route, Routes } from 'react-router-dom';
 function App() {
   return (
     <Routes>
-      <Route path="/" element={'hola'}>
+      <Route path="/" element={'Hola Amigos'}>
         {/* <Route path="/first" element={<FirstPage />} /> */}
         {/* <Route path="*" element={<ErrorPage />} /> */}
       </Route>

@@ -14,13 +14,20 @@
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@vitejs/plugin-react-swc": "^3.3.2",
+    "formik": "^2.4.5",
     "modern-normalize": "^2.0.0",
     "normalize.css": "^8.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.15.0",
+    "react-redux": "^9.1.0",
+    "react-router-dom": "^6.22.3",
+    "react-scripts": "^5.0.1",
+    "redux": "^5.0.1",
     "styled-components": "^6.0.7",
-    "vite-plugin-svgr": "^3.2.0"
+    "swiper": "^11.1.1",
+    "vite-plugin-svgr": "^3.2.0",
+    "web-vitals": "^3.5.2",
+    "yup": "^1.4.0"
   },
   "devDependencies": {
     "@swc/cli": "^0.1.62",
@@ -36,7 +43,8 @@
     "husky": "^8.0.3",
     "lint-staged": "^14.0.1",
     "prettier": "3.0.3",
-    "vite": "^4.4.5"
+    "vite": "^4.4.5",
+    "vite-plugin-imagemin": "^0.6.1"
   },
   "lint-staged": {
     "*.{js,jsx}": "eslint --cache --fix",
