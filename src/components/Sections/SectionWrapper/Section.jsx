@@ -1,4 +1,4 @@
-import css from './Section.module.css';
+import style from './Section.module.css';
 
 export default function Section({
   children,
@@ -7,8 +7,8 @@ export default function Section({
   id,
 }) {
   return (
-    <section id={id} className={css[typeSection]}>
-      <div className={css[containerSection]}>{children}</div>
+    <section id={id} className={style[typeSection]}>
+      <div className={style[containerSection]}>{children}</div>
     </section>
   );
 }
